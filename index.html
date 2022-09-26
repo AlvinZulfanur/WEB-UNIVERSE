@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Web Pertama</title>
+</head>
+<body>
+  <header>
+    <h1 class="logo">LOGO</h1>
+    <nav>
+      <ul>
+        <li><a href="#jasa">JASA</a></li>
+        <li><a href="mailto:alvinzulfanur72@gmail.com">KONTAK</a></li>
+      </ul>
+    </nav>
+    <button class="btn" onclick="redirInstagram()">Follow</button>
+  </header>
+  <div class="container">
+    <div class="intro">
+      <p class="title">Hello, Alvin Zulfanur here!</p>
+      <p class="desc">I'm Student with Spirit of Learning.</p>
+      <img src="assets/foto/Alvin---GN.jpg" alt="Alvin zulfanur foto" class="img-photo">
+    </div>
+  </div>
+  <div class="parallax">
+    <div class="tentang">
+      <p class="title">Masih belajar front end</p>
+      <p class="desc">belajar aja dulu dah</p>
+      <div class="mt-10">
+        <button class="btn-cta" onclick="redirWA()">Mari Kerjasama</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="card" id="jasa">
+        <div class="card-item">
+          <img src="assets/icon/24-hours.png" alt="icon-1" class="icon">
+          <p class="card-title">Pelayanan Non(stop)</p>
+          <p class="card-decs">Ngoding dan berpikir tanpa henti asalkan klien senang dan kerjaan beres</p>
+        </div>
+        <div class="card-item">
+          <img src="assets/icon/hot-deal.png" alt="icon-2" class="icon">
+          <p class="card-title">Jasa paling Murah</p>
+          <p class="card-decs">Biaya jasa yang Saya berikan pasti Murah dan Terjamin</p>
+        </div>
+        <div class="card-item">
+          <img src="assets/icon/rating.png" alt="icon-3" class="icon">
+          <p class="card-title">684 Review</p>
+          <p class="card-decs">Review positif dari setiap klien jadi patokan untuk lebih baik lagi</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="title">&copy; Alvin Zulfanur 2022 </p>
+    </footer>
+  <script>
+    function redirInstagram() {
+      window.location.href = "https://instagram.com/alzlzxz"
+    }
+    function redirWA() {
+      window.location.href = "https://wa.me/0895324341230"
+    }
+  </script>
+  </div>
+</body>
+</html>
